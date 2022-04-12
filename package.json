@@ -1,0 +1,42 @@
+{
+  "name": "ambicare_backend",
+  "version": "1.0.0",
+  "description": "ambicare backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ambicare/Ambicare_backend.git"
+  },
+  "keywords": [
+    "node.js",
+    "ambulance",
+    "backend",
+    "express",
+    "mongodb"
+  ],
+  "author": "ambicare_team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ambicare/Ambicare_backend/issues"
+  },
+  "homepage": "https://github.com/Ambicare/Ambicare_backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "install": "^0.13.0",
+    "joi": "^17.6.0",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.10",
+    "twilio": "^3.76.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
